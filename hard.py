@@ -62,7 +62,7 @@ for k, itm in list(enumerate(workers)):
 # Подсказка:
 # Чтобы получить список больших букв русского алфавита:
 
-def search_ftuits(alpha=all):
+def search_ftuits():
     def __rw(_s, content):
         item = []
         item = [x.strip() for x in content if _s in x if x != []]

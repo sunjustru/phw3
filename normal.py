@@ -21,7 +21,7 @@ def fibonacci(n, m):
         i +=1
 
 m = int(input("Введите M элиментов"))
-print(fibonacci(1, 10))
+print(fibonacci(1, m))
 
 
 # Задача-2:
